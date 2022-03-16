@@ -33,7 +33,7 @@ class GildedRose {
                         }
                     }
                 }else {														// for rest of the items the quality will be graded as day goes by
-                    if (items[i].sellIn > 0 ) {								// Once quality reaches 0 we don't need to change it
+                    if (items[i].quality > 0 ) {								// Once quality reaches 0 we don't need to change it
                         if (items[i].sellIn < 0 ) {
                             if(items[i].name.equals("Conjured Mana Cake")) {			// If sell by date has passed for the Conjured Item quality will be degraded 4 times faster
                                 items[i].quality -= 4;
