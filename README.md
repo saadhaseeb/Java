@@ -11,6 +11,7 @@ Choose Gradle and select Ok to build the Project.
 #How to run the code
 
 There is a test case written that we can use to run the code.
-Go to the "com.gildedrose.GildedRoseTest.java" file and run the test case
-"TestGildedRose" by clicking the Play icon besides that test case.
-The test will run the updateQuality method.
+Go to the "com.gildedrose.GildedRoseTest.java" file and click on
+the Play Icon beside the GildedRoseTest class to run all 11
+test cases.
+
